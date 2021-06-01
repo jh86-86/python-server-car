@@ -10,9 +10,9 @@
   <body>
     <div class="container">
       <img src="../static/download.jpeg" alt="Lexus" class="logo" />
-      {% if message %}
-      <p class="message">{{ message | safe }}</p>
-      {% endif %}
+      {% if message %} <!--if there is a message then from the server the message below comes up-->
+      <p class="message">{{ message | safe }}</p> <!---safe is a bit of security for output-->
+      {% endif %} <!---->
       <form action="/submit" method="POST">
         <div class="form-group">
           <h3>Customer Name</h3>
