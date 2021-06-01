@@ -13,7 +13,7 @@ if ENV=='dev':
     app.config['SQLALCHEMY_DATABASE_URI']="postgresql://aiwkzlryteanux:92571fc127c7d404ffc8a36956116e728af133d5a7676ce7befe127f2a215c61@ec2-23-23-128-222.compute-1.amazonaws.com:5432/dchqdompslh6od"
 else:                                       #sqlalchely error:no longer accepts postgres:// only postgresql://
     app.debug =False
-    app.config['SQLALCHEMY_DATABASE_URI']="postgres://aiwkzlryteanux:92571fc127c7d404ffc8a36956116e728af133d5a7676ce7befe127f2a215c61@ec2-23-23-128-222.compute-"
+    app.config['SQLALCHEMY_DATABASE_URI']="postgresql://aiwkzlryteanux:92571fc127c7d404ffc8a36956116e728af133d5a7676ce7befe127f2a215c61@ec2-23-23-128-222.compute-1.amazonaws.com:5432/dchqdompslh6od"
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
