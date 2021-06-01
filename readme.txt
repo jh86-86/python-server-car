@@ -1,6 +1,7 @@
-This is my first python server to do with cars
+This is my first python server to do with cars selling feedback. It is a simple app but built to introduce me to the fundamentals 
+of python, flask and deploying a pythin server to Heroku.
 
-it will use postgres and flask 
+it will use postgres and flask: 
 
 it's current dependcies are:
 flask = as a framework
@@ -12,3 +13,7 @@ flask-sqlalchemy = a library that facilitates the communication between Python p
 tables on relational databases and automatically converts function calls to SQL statements.
 
 gunicorn = Python WSGI HTTP Server for UNIX
+
+It is also connected to a fake email for the purpose of sending an email. It is my first time using such a service. 
+
+It is now successfully deployed on Heroku at: https://jjpythonserver.herokuapp.com/submit
